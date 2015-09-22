@@ -1,3 +1,3 @@
 ## Food Tracker Application
 
-Testing.
+An iOS application to log food.
