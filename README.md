@@ -1,1 +1,1 @@
-Food Tracker Application
+## Food Tracker Application
