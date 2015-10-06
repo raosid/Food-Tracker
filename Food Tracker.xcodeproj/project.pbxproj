@@ -16,6 +16,10 @@
 		9281F5AA1BB21840006179A9 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9281F5A91BB21840006179A9 /* RatingControl.swift */; settings = {ASSET_TAGS = (); }; };
 		9281F5AC1BB3F4AD006179A9 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9281F5AB1BB3F4AD006179A9 /* Meal.swift */; settings = {ASSET_TAGS = (); }; };
 		9281F5AD1BB3F4AD006179A9 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9281F5AB1BB3F4AD006179A9 /* Meal.swift */; settings = {ASSET_TAGS = (); }; };
+		9281F5AF1BB4BC61006179A9 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9281F5AE1BB4BC61006179A9 /* MealTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		9281F5B01BB4BC61006179A9 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9281F5AE1BB4BC61006179A9 /* MealTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		92C02A421BC30E1F00496A83 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C02A411BC30E1F00496A83 /* MealViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		92C02A441BC30EF900496A83 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C02A431BC30EF900496A83 /* MealTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,9 @@
 		9281F5A01BB12851006179A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9281F5A91BB21840006179A9 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		9281F5AB1BB3F4AD006179A9 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		9281F5AE1BB4BC61006179A9 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MealTableViewCell.swift; path = "Food TrackerTests/MealTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		92C02A411BC30E1F00496A83 /* MealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		92C02A431BC30EF900496A83 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +91,13 @@
 		9281F5881BB12850006179A9 /* Food Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				9281F5AE1BB4BC61006179A9 /* MealTableViewCell.swift */,
 				9281F5891BB12850006179A9 /* AppDelegate.swift */,
 				9281F58B1BB12851006179A9 /* ViewController.swift */,
 				9281F58D1BB12851006179A9 /* Main.storyboard */,
 				9281F5901BB12851006179A9 /* Assets.xcassets */,
+				92C02A411BC30E1F00496A83 /* MealViewController.swift */,
+				92C02A431BC30EF900496A83 /* MealTableViewController.swift */,
 				9281F5921BB12851006179A9 /* LaunchScreen.storyboard */,
 				9281F5951BB12851006179A9 /* Info.plist */,
 			);
@@ -205,8 +215,11 @@
 			files = (
 				9281F5AC1BB3F4AD006179A9 /* Meal.swift in Sources */,
 				9281F58C1BB12851006179A9 /* ViewController.swift in Sources */,
+				92C02A441BC30EF900496A83 /* MealTableViewController.swift in Sources */,
 				9281F5AA1BB21840006179A9 /* RatingControl.swift in Sources */,
 				9281F58A1BB12850006179A9 /* AppDelegate.swift in Sources */,
+				9281F5AF1BB4BC61006179A9 /* MealTableViewCell.swift in Sources */,
+				92C02A421BC30E1F00496A83 /* MealViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +229,7 @@
 			files = (
 				9281F5AD1BB3F4AD006179A9 /* Meal.swift in Sources */,
 				9281F59F1BB12851006179A9 /* Food_TrackerTests.swift in Sources */,
+				9281F5B01BB4BC61006179A9 /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +411,7 @@
 				9281F5A51BB12851006179A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9281F5A61BB12851006179A9 /* Build configuration list for PBXNativeTarget "Food TrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +420,7 @@
 				9281F5A81BB12851006179A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
